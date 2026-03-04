@@ -47,8 +47,8 @@ void clampPlayLayerPos(CCNode* playLayer) {
 	float xLimit = (contentSize.width * playLayer->getScale() - screenSize.width) * 0.5f;
 	float yLimit = (contentSize.height * playLayer->getScale() - screenSize.height) * 0.5f;
 
-	pos.x = clamp(pos.x, -xLimit, xLimit);
-	pos.y = clamp(pos.y, -yLimit, yLimit);
+	pos.x = std::clamp(pos.x, -xLimit, xLimit);
+	pos.y = std::clamp(pos.y, -yLimit, yLimit);
 
 	playLayer->setPosition(pos);
 }
