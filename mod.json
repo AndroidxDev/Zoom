@@ -1,5 +1,5 @@
 {
-	"geode": "5.0.0",
+	"geode": "5.1.0",
 	"gd": {
 		"win": "2.2081",
 		"android": "2.2081",
@@ -12,7 +12,7 @@
 	"developer": "Bobby Shmurner",
 	"description": "Allows you to zoom while paused!",
 	"links": {
-		"source": "https://github.com/BobbyShmurner/Zoom"
+		"source": "https://github.com/AndroidxDev/Zoom"
 	},
 	"dependencies": {
 		"geode.node-ids": {
